@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Mahasiswa - Fisika Teori & Komputasi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Lab Fisika Teori & Komputasi</h1>
+                        <p>Menjelajahi Alam Semesta melalui Teori dan Simulasi</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang</a></li>
+                        <li><a href="dosen.html">Dosen</a></li>
+                        <li><a href="research.html">Penelitian</a></li>
+                        <li><a href="database.html" class="active">Database</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Database Mahasiswa</h1>
+            <p>Data mahasiswa yang tergabung dalam Laboratorium Fisika Teori dan Komputasi</p>
+        </div>
+    </section>
+
+    <section id="database">
+        <div class="container">
+            <div class="database-controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cari mahasiswa...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="filter-controls">
+                    <select id="yearFilter">
+                        <option value="">Semua Angkatan</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                    </select>
+                    <select id="statusFilter">
+                        <option value="">Semua Status</option>
+                        <option value="Aktif">Aktif</option>
+                        <option value="Alumni">Alumni</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="students-grid" id="studentsGrid">
+                <!-- Data mahasiswa akan dimuat di sini oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang Kami</h3>
+                    <p>Laboratorium Fisika Teori dan Komputasi adalah pusat penelitian yang berfokus pada pengembangan teori fisika terkini dan penerapan metode komputasi.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang</a></li>
+                        <li><a href="dosen.html">Dosen</a></li>
+                        <li><a href="research.html">Penelitian</a></li>
+                        <li><a href="database.html">Database</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Gedung Fakultas MIPA, Lantai 3</p>
+                    <p><i class="fas fa-phone"></i> +62 22 8765432</p>
+                    <p><i class="fas fa-envelope"></i> lab.fisikateori@universitas.ac.id</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Laboratorium Fisika Teori dan Komputasi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
