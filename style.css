@@ -800,6 +800,11 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3rem;
+    align-items: start;
+}
+
+.about-main {
+    width: 100%;
 }
 
 .research-focus-list {
@@ -832,6 +837,7 @@ footer {
 .focus-card p {
     color: var(--gray-light);
     line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 .vision-mission {
@@ -841,8 +847,8 @@ footer {
 .vm-card {
     background: rgba(26, 54, 93, 0.7);
     border-radius: 10px;
-    padding: 2rem;
-    margin-bottom: 2rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     backdrop-filter: blur(5px);
     border: 1px solid rgba(76, 201, 240, 0.2);
 }
@@ -853,6 +859,13 @@ footer {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 1.1rem;
+}
+
+.vm-card p {
+    color: var(--gray-light);
+    line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 .vm-card ul {
@@ -864,6 +877,9 @@ footer {
     margin-bottom: 0.5rem;
     padding-left: 1.5rem;
     position: relative;
+    color: var(--gray-light);
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 .vm-card ul li::before {
@@ -877,6 +893,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    position: sticky;
+    top: 100px;
 }
 
 .sidebar-card {
@@ -885,6 +903,11 @@ footer {
     padding: 1.5rem;
     backdrop-filter: blur(5px);
     border: 1px solid rgba(76, 201, 240, 0.2);
+    transition: transform 0.3s;
+}
+
+.sidebar-card:hover {
+    transform: translateY(-5px);
 }
 
 .sidebar-card h3 {
@@ -899,4 +922,5 @@ footer {
 .sidebar-card p {
     color: var(--gray-light);
     line-height: 1.5;
+    font-size: 0.9rem;
 }
