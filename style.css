@@ -354,7 +354,13 @@ section {
     font-size: 0.9rem;
 }
 
-/* Dosen Section - FOTO LOKAL YANG SUDAH DIPERBAIKI */
+
+
+
+
+
+
+/* Dosen Section - FOTO LOKAL - DIPERBAIKI DENGAN !IMPORTANT */
 .dosen-section {
     background: linear-gradient(rgba(10, 25, 49, 0.9), rgba(10, 25, 49, 0.95)), url('https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
@@ -384,28 +390,29 @@ section {
 }
 
 .dosen-img {
-    height: 250px;
-    background-color: var(--secondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
+    height: 200px !important;
+    background-color: var(--secondary) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    position: relative !important;
+    padding: 20px !important;
 }
 
 .dosen-img img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 15px rgba(76, 201, 240, 0.3);
-    transition: transform 0.3s;
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 50% !important;
+    border: 4px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 4px 15px rgba(76, 201, 240, 0.3) !important;
+    transition: transform 0.3s !important;
 }
 
 .dosen-card:hover .dosen-img img {
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
 }
 
 .dosen-info {
