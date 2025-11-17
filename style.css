@@ -354,7 +354,7 @@ section {
     font-size: 0.9rem;
 }
 
-/* Dosen Section - DIPERBAIKI */
+/* Dosen Section - FOTO LOKAL YANG SUDAH DIPERBAIKI */
 .dosen-section {
     background: linear-gradient(rgba(10, 25, 49, 0.9), rgba(10, 25, 49, 0.95)), url('https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
@@ -389,44 +389,23 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    overflow: hidden;
+    position: relative;
 }
 
-.profile-icon {
-    width: 120px;
-    height: 120px;
+.dosen-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 4px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 15px rgba(76, 201, 240, 0.3);
+    transition: transform 0.3s;
 }
 
-.profile-icon i {
-    font-size: 3rem;
-    color: var(--white);
-}
-
-/* Variasi warna untuk profile icon */
-.dosen-card:nth-child(1) .profile-icon {
-    background: linear-gradient(135deg, #4cc9f0, #4361ee);
-}
-
-.dosen-card:nth-child(2) .profile-icon {
-    background: linear-gradient(135deg, #f72585, #7209b7);
-}
-
-.dosen-card:nth-child(3) .profile-icon {
-    background: linear-gradient(135deg, #f48c06, #dc2f02);
-}
-
-.dosen-card:nth-child(4) .profile-icon {
-    background: linear-gradient(135deg, #2a9d8f, #264653);
-}
-
-.dosen-card:nth-child(5) .profile-icon {
-    background: linear-gradient(135deg, #e9c46a, #f4a261);
+.dosen-card:hover .dosen-img img {
+    transform: scale(1.1);
 }
 
 .dosen-info {
@@ -436,18 +415,21 @@ section {
 .dosen-info h3 {
     color: var(--accent);
     margin-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .dosen-position {
     color: var(--gray-light);
     font-weight: 600;
     margin-bottom: 0.5rem;
+    font-size: 0.9rem;
 }
 
 .dosen-expertise {
     color: var(--gray-light);
     margin-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    line-height: 1.4;
 }
 
 .dosen-contact {
@@ -457,8 +439,8 @@ section {
 
 .dosen-contact p {
     color: var(--gray-light);
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -798,5 +780,10 @@ footer {
     
     .quick-links-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .dosen-img img {
+        width: 120px;
+        height: 120px;
     }
 }
