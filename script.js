@@ -135,7 +135,7 @@ const studentsData = [
         name: "Muh. Imam Ashshiddigie",
         nim: "-",
         angkatan: 2020,
-        status: "Alumni",
+        status: "-",
         researchInterest: "-"
     },
 
@@ -145,7 +145,7 @@ const studentsData = [
         name: "Hartini",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "-",
         researchInterest: "Condensed Matter Komputasi"
     },
     {
@@ -153,7 +153,7 @@ const studentsData = [
         name: "Sastri",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "-",
         researchInterest: "-"
     },
     {
@@ -169,7 +169,7 @@ const studentsData = [
         name: "Akmal Suratmi",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "-",
         researchInterest: "Condensed Matter"
     },
     {
@@ -177,7 +177,7 @@ const studentsData = [
         name: "Salim Hidayatullah",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "Aktif",
         researchInterest: "-"
     },
     {
@@ -185,7 +185,7 @@ const studentsData = [
         name: "Muhammad Ikhram",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "Aktif",
         researchInterest: "-"
     },
     {
@@ -193,7 +193,7 @@ const studentsData = [
         name: "Misda",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "-",
         researchInterest: "-"
     },
     {
@@ -201,7 +201,7 @@ const studentsData = [
         name: "Gulam Syuhada Nakib",
         nim: "-",
         angkatan: 2021,
-        status: "Alumni",
+        status: "Aktif",
         researchInterest: "-"
     },
 
@@ -266,7 +266,7 @@ const studentsData = [
     // Angkatan 2023 (Aktif)
     {
         id: 29,
-        name: "Elizabeth",
+        name: "Elizabet",
         nim: "H021231003",
         angkatan: 2023,
         status: "Aktif",
@@ -282,7 +282,7 @@ const studentsData = [
     },
     {
         id: 31,
-        name: "Nurhalizah",
+        name: "Nurhaliza",
         nim: "H021231008",
         angkatan: 2023,
         status: "Aktif",
