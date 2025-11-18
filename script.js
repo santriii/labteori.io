@@ -58,7 +58,7 @@ const studentsData = [
         researchInterest: "-"
     },
      {
-        id: 3,
+        id: 4,
         name: "Muhammad Hidayat",
         nim: "-",
         angkatan: 2018,
@@ -66,7 +66,7 @@ const studentsData = [
         researchInterest: "-"
     },
     {
-        id: 3,
+        id: 5,
         name: "Israil",
         nim: "-",
         angkatan: 2019,
@@ -74,7 +74,7 @@ const studentsData = [
         researchInterest: "-"
     },
      {
-        id: 3,
+        id: 6,
         name: "Umniyah Ardi",
         nim: "-",
         angkatan: 2019,
@@ -82,7 +82,7 @@ const studentsData = [
         researchInterest: "-"
     },
      {
-        id: 3,
+        id: 7,
         name: "Musdalifah",
         nim: "-",
         angkatan: 2019,
