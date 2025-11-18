@@ -132,7 +132,7 @@ const studentsData = [
     },
     {
         id: 13,
-        name: "Muh. Imam Ashshiddigie",
+        name: "Muh. Imam Ashshiddiqie",
         nim: "-",
         angkatan: 2020,
         status: "-",
@@ -143,7 +143,7 @@ const studentsData = [
     {
         id: 14,
         name: "Hartini",
-        nim: "-",
+        nim: "H021211031",
         angkatan: 2021,
         status: "-",
         researchInterest: "Condensed Matter Komputasi"
@@ -167,7 +167,7 @@ const studentsData = [
     {
         id: 17,
         name: "Akmal Suratmi",
-        nim: "-",
+        nim: "H021211024",
         angkatan: 2021,
         status: "-",
         researchInterest: "Condensed Matter"
@@ -175,7 +175,7 @@ const studentsData = [
     {
         id: 18,
         name: "Salim Hidayatullah",
-        nim: "-",
+        nim: "H021211015",
         angkatan: 2021,
         status: "Aktif",
         researchInterest: "-"
@@ -201,7 +201,7 @@ const studentsData = [
         name: "Gulam Syuhada Nakib",
         nim: "-",
         angkatan: 2021,
-        status: "Aktif",
+        status: "-",
         researchInterest: "-"
     },
 
@@ -209,7 +209,7 @@ const studentsData = [
     {
         id: 22,
         name: "Putra Ikhsan Pratama",
-        nim: "-",
+        nim: "H021221054",
         angkatan: 2022,
         status: "Aktif",
         researchInterest: "-"
@@ -225,7 +225,7 @@ const studentsData = [
     {
         id: 24,
         name: "Husnul Fatimah",
-        nim: "-",
+        nim: "H021221017",
         angkatan: 2022,
         status: "Aktif",
         researchInterest: "-"
@@ -241,7 +241,7 @@ const studentsData = [
     {
         id: 26,
         name: "Fikri Lukman",
-        nim: "-",
+        nim: "H021221043",
         angkatan: 2022,
         status: "Aktif",
         researchInterest: "-"
@@ -257,7 +257,7 @@ const studentsData = [
     {
         id: 28,
         name: "Algun Zainal Cipada",
-        nim: "-",
+        nim: "H021221035",
         angkatan: 2022,
         status: "Aktif",
         researchInterest: "-"
@@ -331,7 +331,7 @@ const studentsData = [
     {
         id: 37,
         name: "Deby Lebryawati",
-        nim: "-",
+        nim: "H021231046",
         angkatan: 2023,
         status: "Aktif",
         researchInterest: "-"
@@ -339,7 +339,7 @@ const studentsData = [
     {
         id: 38,
         name: "Nur Fadli Yoga",
-        nim: "-",
+        nim: "H021231073",
         angkatan: 2023,
         status: "Aktif",
         researchInterest: "-"
