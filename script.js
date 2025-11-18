@@ -31,8 +31,9 @@ function createStars() {
     }
 }
 
-// Data Mahasiswa - SUDAH DIPERBAIKI
+// Data Mahasiswa - SUDAH DIPERBAIKI DAN DITAMBAHKAN
 const studentsData = [
+    // Angkatan 2017-2020 (Alumni)
     {
         id: 1,
         name: "Andi Agung Prawira Negara",
@@ -90,7 +91,7 @@ const studentsData = [
         researchInterest: "Komputasi"
     },
     {
-        id: 8,  // ✅ ID unik
+        id: 8,
         name: "Faqihah Fajriani J.",
         nim: "-",
         angkatan: 2020,
@@ -98,15 +99,15 @@ const studentsData = [
         researchInterest: "-"
     },
     {
-        id: 9,  // ✅ ID unik
+        id: 9,
         name: "Eka Hidayani Pabisi",
         nim: "-",
         angkatan: 2020,
-        status: "Alumni",  // ✅ Koma ganda dihapus
+        status: "Alumni",
         researchInterest: "-"
     },
     {
-        id: 10,  // ✅ ID unik
+        id: 10,
         name: "Uei Sri Rahayu",
         nim: "-",
         angkatan: 2020,
@@ -114,11 +115,233 @@ const studentsData = [
         researchInterest: "-"
     },
     {
-        id: 11,  // ✅ ID unik
+        id: 11,
         name: "Stevan Jonathan V. Situmorang",
         nim: "-",
         angkatan: 2020,
         status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 12,
+        name: "Sahrul Ardiansyah",
+        nim: "-",
+        angkatan: 2020,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 13,
+        name: "Muh. Imam Ashshiddigie",
+        nim: "-",
+        angkatan: 2020,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+
+    // Angkatan 2021 (Alumni)
+    {
+        id: 14,
+        name: "Hartini",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "Condensed Matter Komputasi"
+    },
+    {
+        id: 15,
+        name: "Sastri",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 16,
+        name: "Nur Syamsi Syam",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "Astrofisika Komputasi"
+    },
+    {
+        id: 17,
+        name: "Akmal Suratmi",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "Condensed Matter"
+    },
+    {
+        id: 18,
+        name: "Salim Hidayatullah",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 19,
+        name: "Muhammad Ikhram",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 20,
+        name: "Misda",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 21,
+        name: "Gulam Syuhada Nakib",
+        nim: "-",
+        angkatan: 2021,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+
+    // Angkatan 2022 (Aktif)
+    {
+        id: 22,
+        name: "Putra Ikhsan Pratama",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 23,
+        name: "Abdul Qadir Jailani",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 24,
+        name: "Husnul Fatimah",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 25,
+        name: "St. Nur Adnen A.",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 26,
+        name: "Fikri Lukman",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 27,
+        name: "Nadia Fitra",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 28,
+        name: "Algun Zainal Cipada",
+        nim: "-",
+        angkatan: 2022,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+
+    // Angkatan 2023 (Aktif)
+    {
+        id: 29,
+        name: "Elizabeth",
+        nim: "H021231003",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 30,
+        name: "Elviana",
+        nim: "H021231006",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 31,
+        name: "Nurhalizah",
+        nim: "H021231008",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 32,
+        name: "Citra Fikriah Jamal",
+        nim: "H021231010",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 33,
+        name: "Santri",
+        nim: "H021231012",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 34,
+        name: "Yeni Estefani Parinding",
+        nim: "H021231016",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 35,
+        name: "Muhammad Ibrahim",
+        nim: "H021231026",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 36,
+        name: "Angga Anugrah",
+        nim: "H021231006",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 37,
+        name: "Deby Lebryawati",
+        nim: "-",
+        angkatan: 2023,
+        status: "Aktif",
+        researchInterest: "-"
+    },
+    {
+        id: 38,
+        name: "Nur Fadli Yoga",
+        nim: "-",
+        angkatan: 2023,
+        status: "Aktif",
         researchInterest: "-"
     }
 ];
