@@ -31,7 +31,7 @@ function createStars() {
     }
 }
 
-// Data Mahasiswa
+// Data Mahasiswa - SUDAH DIPERBAIKI
 const studentsData = [
     {
         id: 1,
@@ -46,7 +46,7 @@ const studentsData = [
         name: "Muhammad Sabran",
         nim: "-", 
         angkatan: 2017,
-        status: "Alumni",,
+        status: "Alumni",
         researchInterest: "-"
     },
     {
@@ -57,7 +57,7 @@ const studentsData = [
         status: "Alumni",
         researchInterest: "-"
     },
-     {
+    {
         id: 4,
         name: "Muhammad Hidayat",
         nim: "-",
@@ -73,7 +73,7 @@ const studentsData = [
         status: "Alumni",
         researchInterest: "-"
     },
-     {
+    {
         id: 6,
         name: "Umniyah Ardi",
         nim: "-",
@@ -81,7 +81,7 @@ const studentsData = [
         status: "Alumni",
         researchInterest: "-"
     },
-     {
+    {
         id: 7,
         name: "Musdalifah",
         nim: "-",
@@ -89,8 +89,8 @@ const studentsData = [
         status: "Alumni",
         researchInterest: "Komputasi"
     },
-     {
-        id: 3,
+    {
+        id: 8,  // ✅ ID unik
         name: "Faqihah Fajriani J.",
         nim: "-",
         angkatan: 2020,
@@ -98,15 +98,15 @@ const studentsData = [
         researchInterest: "-"
     },
     {
-        id: 3,
+        id: 9,  // ✅ ID unik
         name: "Eka Hidayani Pabisi",
         nim: "-",
         angkatan: 2020,
-        status: "Alumni",
+        status: "Alumni",  // ✅ Koma ganda dihapus
         researchInterest: "-"
     },
     {
-        id: 3,
+        id: 10,  // ✅ ID unik
         name: "Uei Sri Rahayu",
         nim: "-",
         angkatan: 2020,
@@ -114,20 +114,19 @@ const studentsData = [
         researchInterest: "-"
     },
     {
-        id: 3,
-        name: "Stevan Jonathan V.Situmorang",
+        id: 11,  // ✅ ID unik
+        name: "Stevan Jonathan V. Situmorang",
         nim: "-",
         angkatan: 2020,
         status: "Alumni",
         researchInterest: "-"
-    },
-    // ... tambahkan data mahasiswa lainnya di sini
+    }
 ];
 
-// Fungsi untuk menampilkan mahasiswa
+// Fungsi untuk menampilkan mahasiswa - SUDAH DIPERBAIKI
 function displayStudents(students) {
     const studentsGrid = document.getElementById('studentsGrid');
-    if (!studentsGrid) return; // Hanya jalankan di halaman database
+    if (!studentsGrid) return;
     
     studentsGrid.innerHTML = '';
 
@@ -139,7 +138,6 @@ function displayStudents(students) {
             <div class="student-name">${student.name}</div>
             <div class="student-nim">NIM: ${student.nim}</div>
             <div class="student-info">Angkatan: ${student.angkatan}</div>
-            <div class="student-info">Email: ${student.email}</div>
             <div class="student-info">Minat Penelitian: ${student.researchInterest}</div>
             <div class="student-status ${student.status === 'Aktif' ? 'status-aktif' : 'status-alumni'}">
                 ${student.status}
@@ -156,7 +154,7 @@ function filterStudents() {
     const yearFilter = document.getElementById('yearFilter');
     const statusFilter = document.getElementById('statusFilter');
     
-    if (!searchInput || !yearFilter || !statusFilter) return; // Hanya jalankan di halaman database
+    if (!searchInput || !yearFilter || !statusFilter) return;
 
     const searchTerm = searchInput.value.toLowerCase();
     const yearValue = yearFilter.value;
@@ -191,7 +189,6 @@ function initDatabasePage() {
 
 // Inisialisasi saat halaman load
 document.addEventListener('DOMContentLoaded', function() {
-    createStars(); // Selalu jalankan efek bintang
-    initDatabasePage(); // Jalankan fungsi database hanya jika di halaman database
+    createStars();
+    initDatabasePage();
 });
-
