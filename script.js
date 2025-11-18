@@ -35,30 +35,91 @@ function createStars() {
 const studentsData = [
     {
         id: 1,
-        name: "Ahmad Fauzi",
-        nim: "21101152610001",
-        angkatan: 2021,
-        status: "Aktif",
-        email: "ahmad.fauzi@student.unhas.ac.id",
-        researchInterest: "Condensed Matter Physics"
+        name: "Andi Agung Prawira Negara",
+        nim: "-",
+        angkatan: 2017,
+        status: "Alumni",
+        researchInterest: "-"
     },
     {
         id: 2,
-        name: "Sari Dewi Lestari",
-        nim: "21101152610002", 
-        angkatan: 2021,
-        status: "Aktif",
-        email: "sari.dewi@student.unhas.ac.id",
-        researchInterest: "Cosmology"
+        name: "Muhammad Sabran",
+        nim: "-", 
+        angkatan: 2017,
+        status: "Alumni",,
+        researchInterest: "-"
     },
     {
         id: 3,
-        name: "Budi Santoso",
-        nim: "21101152610003",
+        name: "Fauzan Husein",
+        nim: "-",
+        angkatan: 2018,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+     {
+        id: 3,
+        name: "Muhammad Hidayat",
+        nim: "-",
+        angkatan: 2018,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 3,
+        name: "Israil",
+        nim: "-",
+        angkatan: 2019,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+     {
+        id: 3,
+        name: "Umniyah Ardi",
+        nim: "-",
+        angkatan: 2019,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+     {
+        id: 3,
+        name: "Musdalifah",
+        nim: "-",
+        angkatan: 2019,
+        status: "Alumni",
+        researchInterest: "Komputasi"
+    },
+     {
+        id: 3,
+        name: "Faqihah Fajriani J.",
+        nim: "-",
         angkatan: 2020,
         status: "Alumni",
-        email: "budi.santoso@student.unhas.ac.id",
-        researchInterest: "Particle Physics"
+        researchInterest: "-"
+    },
+    {
+        id: 3,
+        name: "Eka Hidayani Pabisi",
+        nim: "-",
+        angkatan: 2020,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 3,
+        name: "Uei Sri Rahayu",
+        nim: "-",
+        angkatan: 2020,
+        status: "Alumni",
+        researchInterest: "-"
+    },
+    {
+        id: 3,
+        name: "Stevan Jonathan V.Situmorang",
+        nim: "-",
+        angkatan: 2020,
+        status: "Alumni",
+        researchInterest: "-"
     },
     // ... tambahkan data mahasiswa lainnya di sini
 ];
